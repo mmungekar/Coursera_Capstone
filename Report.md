@@ -44,28 +44,28 @@ The four clusters obtained from the k-means clustering can be broken down as suc
 
 | Cluster | Italian Restaurant Frequency | Pizza Parlor Frequency   | General Restaurant Frequency         |
 | ----------------- | ------- | ------------- | -------------------------- |
-0|	0.162399|	0.023429|	0.012051|
-1	|0.010632	|0.026715	|0.008749|
-2	|1.000000	|0.000000	|0.000000|
-3	|0.014155|	0.178091	|0.009769|
+0| .008103|	0.007819|	0.007126|
+1|	0.158589|	0.019544|	0.012061|
+2|	0.000000|	0.205634| 0.020032|
+3	|0.033453|	0.098554|	0.007688|
 
 After individually analyzing each cluster, the results are summarized as shown:
 | Cluster | Italian Restaurant Frequency | Pizza Parlor Frequency   | General Restaurant Frequency         |
 | ----------------- | ------- | ------------- | -------------------------- |
-| 0        | High     | Low | Low |
-| 1       | Low     | Low | Low |
-| 2        | Very High     | Low | Low |
+| 0        | Low     | Low | Low |
+| 1       | High     | Low | Low |
+| 2        |  Low     | Very High | Low |
 | 3        | Low     | High | Low |
 
 ## Discussion
 
-Cluster 1 appears to be the most promising candidate for opening a pizza parlor. Given a generally low concentration of all three categories examined (Italian restaurant, pizza parlor, and general restaurant), there appears to be very little direct competition. These neighborhoods appear to be on the outskirts of the island, away from the center, where there appears to be a higher concentration of Italian and pizza-specialty places.
+Cluster 0 appears to be the most promising candidate for opening a pizza parlor. Given a generally low concentration of all three categories examined (Italian restaurant, pizza parlor, and general restaurant), there appears to be very little direct competition. These neighborhoods appear to be on the outskirts of the island, largely to the north, away from the center.
 
-Cluster 0 will present a moderate amount of competition to a prospective pizza place owner due to the high concentration of Italian restaurants. However, it still may be an option for a place which specializes in pizza, as the broader Italian restaurant category will tend to have other offerings on the menu and not focus as much on a single dish. This cluster is located primarily on the north-east part of the island.
+Cluster 1 will present a moderate amount of competition to a prospective pizza place owner due to the high concentration of Italian restaurants. However, it still may be an option for a place which specializes in pizza, as the broader Italian restaurant category will tend to have other offerings on the menu and not focus as much on a single dish. This cluster is located primarily on the north-east part of the island.
 
-Cluster 2 is a single neighborhood with an extremely high frequency of Italian restaurants. This would not be a highly reccommended option unless the pizza parlor is particularly niche or provides a highly unique offering.
+Cluster 2 has a very high concentration of pizza parlors. As the saturation of pizza parlors in this region is especially high, it would not be recommended to open a pizza parlor in this cluster, which is located more towards the center of the island.
 
-Cluster 3 has a very high concentration of pizza parlors. As the saturation of pizza parlors in this region is especially high, it would not be recommended to open a pizza parlor in this cluster. These neighborhoods are closer to the center of the island--many are clustered near the south.
+Cluster 3 has a high concentration of pizza parlors and a moderate-low concentration of Italian restaurants. This would not be a highly reccommended option unless our pizza parlor is particularly niche or provides a highly unique offering. These neighborhoods are largely clustered near the south and center of the island.
 
 We recommend, overall, that any prospective pizza parlor owner choose to open their business on the outskirts/more suburban parts of the island, particularly in the north. Based on the assumption that competition is the driving factor in determining location, focusing on building a customer base a little further away from the island center would be a highly effective strategy unhindered by high levels of competition and market saturation closer to the island center.
 
@@ -73,5 +73,5 @@ We recommend, overall, that any prospective pizza parlor owner choose to open th
 
 This project was targeted towards assisting potential pizza parlor owners in Staten Island, NY in determining which locations would be most advantageous for business. Through gathering Staten Island neighborhood data and obtaining a list of venues in each neighborhood, we were able to use k-means clustering to group all Staten Island neighborhoods by their concentrations of Italian restaurants, pizza places, and general restaurants.
 
-The results demonstrate that the outskirts of the city (Cluster 1) are most promising option to avoid high levels of competition with other restaurants. Potential stakeholders can leverage these results to analyze the competition in potential business locations and maximize their own profit in areas with low competition and/or a demand for pizza places.
+The results demonstrate that the outskirts of the city (Cluster 0) are most promising option to avoid high levels of competition with other restaurants. Potential stakeholders can leverage these results to analyze the competition in potential business locations and maximize their own profit in areas with low competition and/or a demand for pizza places.
 

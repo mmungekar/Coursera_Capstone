@@ -20,4 +20,4 @@ This venue data will be paired with neighborhood data to list all venues present
 | ----------------- | ------- | ------------- | -------------------------- |
 | Borough A        | Neighborhood B     | 20 | 80 |
 
-The Foursquare and neighborhood data will be concatenated. Once venues are assigned to their neighborhoods, the concentration of Italian restaurants, pizza parlors, and general restaurants present in each neighborhood will be analyzed to recommend which neighborhoods would be the best candidates for opening a pizza place.
+The Foursquare and neighborhood data will be concatenated. Once venues are assigned to their neighborhoods, the concentration of Italian restaurants, pizza parlors, and general restaurants present in each neighborhood will be analyzed and classified via k-means clustering. Based on the composition of these clusters, we will recommend which neighborhoods would be the best candidates for opening a pizza place.

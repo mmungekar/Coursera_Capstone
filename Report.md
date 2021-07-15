@@ -38,7 +38,7 @@ For each cluster, we look at the average Italian restaurant, pizza parlor, and r
 
 The clustering results are displayed below, with Cluster 0 color-coded red, Cluster 1 color-coded purple, Cluster 2 in teal, and Cluster 3 in green.
 
-![image](https://user-images.githubusercontent.com/25122350/125836724-339f294e-7014-42c2-9b33-b5dd66ef160e.png)
+![image](https://user-images.githubusercontent.com/25122350/125871012-e7df6620-636f-41b6-bc8d-cf823d683ea9.png)
 
 The four clusters obtained from the k-means clustering can be broken down as such:
 
